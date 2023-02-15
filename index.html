@@ -66,13 +66,15 @@
                     <div class="block_form" >
                         
                         <label class="form_title" for="age"> Age </label>
-                        <input class="input_age" type="number" name="age" id="age" size="100px"  required placeholder="Age">
+                        <input class="input_age" type="number" name="age" id="age"  value="age" required >
 
                     </div>
 
-                    <div>
-                        <legend>Course</legend>
-                        <select name="courses" id="courses" required>
+                    <div class="block_form" >
+                        
+                        <legend class="form_title" >Course</legend>
+                        
+                        <select class="select" name="courses" id="courses" required>
                         <option value="#" selected disabled>Choose your course</option>
                         <option value="#">Front-End</option>
                         <option value="#">Back-End</option>
@@ -83,8 +85,8 @@
                         </select>
                     </div>
 
-                    <div>
-                        <label for="text">Full Address </label>
+                    <div class="block_form" >
+                        <label class="form_title" for="text">Full Address </label>
                         <textarea name="fullinfo" id="text" placeholder="Country,Street,flat"></textarea>
                     </div>
 
